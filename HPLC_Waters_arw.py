@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """
+Process/plot HPLC data from Waters ".arw" files
+
 Created on Thu Apr 14 07:53:55 2022
-@author: Alast
+@author: A R Plant
 
 Things to do:
     Read files listed by 'files'; decide either to build a 3D dataframe or to make a new frame for each
-    Work out how to parse compound sample names, e.g. dnhA_NEG_1
+    Work out how to parse compound sample names, e.g. dnhA_NEG_1 - split by underscre when reading into dataframe?
 
 """
 
